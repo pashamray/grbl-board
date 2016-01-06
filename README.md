@@ -1,1 +1,1 @@
-# grbl-controller
+# grbl-board

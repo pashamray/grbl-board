@@ -14687,7 +14687,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="C3" library="adafruit" deviceset="C-US" device="C0805K"/>
 <part name="GND8" library="supply1" deviceset="GNDA" device=""/>
 <part name="X2" library="con-ptr500" deviceset="AK500/2" device=""/>
-<part name="X3" library="con-ptr500" deviceset="AK500/2" device=""/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C0805K"/>
 <part name="GND9" library="supply1" deviceset="GNDA" device=""/>
 </parts>
@@ -14816,8 +14815,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="GND8" gate="1" x="78.74" y="190.5"/>
 <instance part="X2" gate="-1" x="307.34" y="256.54" rot="MR0"/>
 <instance part="X2" gate="-2" x="307.34" y="248.92" rot="MR0"/>
-<instance part="X3" gate="-1" x="86.36" y="104.14"/>
-<instance part="X3" gate="-2" x="86.36" y="109.22"/>
 <instance part="C4" gate="G$1" x="86.36" y="203.2"/>
 <instance part="GND9" gate="1" x="86.36" y="190.5"/>
 </instances>
@@ -14989,10 +14986,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="91.44" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="88.9" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="104.14" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
-<junction x="93.98" y="88.9"/>
-<pinref part="X3" gate="-1" pin="KL"/>
-<wire x1="93.98" y1="104.14" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
@@ -15561,9 +15554,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="101.6" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="88.9" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
 <junction x="101.6" y="93.98"/>
-<wire x1="101.6" y1="109.22" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-2" pin="KL"/>
-<wire x1="101.6" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">

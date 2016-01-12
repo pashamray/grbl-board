@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -2633,22 +2633,21 @@ Source: 008-0260-0_E.pdf</description>
 <text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="22-23-2051">
-<description>.100" (2.54mm) Center Header - 5 Pin</description>
-<wire x1="-6.35" y1="3.175" x2="6.35" y2="3.175" width="0.254" layer="21"/>
-<wire x1="6.35" y1="3.175" x2="6.35" y2="1.27" width="0.254" layer="21"/>
-<wire x1="6.35" y1="1.27" x2="6.35" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="6.35" y1="-3.175" x2="-6.35" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-6.35" y1="-3.175" x2="-6.35" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-6.35" y1="1.27" x2="-6.35" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-6.35" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="-2.54" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="0" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="4" x="2.54" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="5" x="5.08" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-6.35" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-6.35" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<package name="22-23-2041">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -2713,30 +2712,28 @@ Source: 008-0260-0_E.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="22-23-2051" prefix="X">
-<description>.100" (2.54mm) Center Header - 5 Pin</description>
+<deviceset name="22-23-2041" prefix="X">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
 <gates>
-<gate name="-1" symbol="MV" x="0" y="5.08" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-5" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="22-23-2051">
+<device name="" package="22-23-2041">
 <connects>
 <connect gate="-1" pin="S" pad="1"/>
 <connect gate="-2" pin="S" pad="2"/>
 <connect gate="-3" pin="S" pad="3"/>
 <connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2051" constant="no"/>
-<attribute name="OC_FARNELL" value="1462952" constant="no"/>
-<attribute name="OC_NEWARK" value="38C9178" constant="no"/>
+<attribute name="MPN" value="22-23-2041" constant="no"/>
+<attribute name="OC_FARNELL" value="1462920" constant="no"/>
+<attribute name="OC_NEWARK" value="38C0355" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -14636,10 +14633,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="SUPPLY2" library="supply2" deviceset="DGND" device=""/>
 <part name="+24V-" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="M0805" value="10K"/>
-<part name="X-DRIVER" library="con-molex" deviceset="22-23-2051" device=""/>
-<part name="Y-DRIVER" library="con-molex" deviceset="22-23-2051" device=""/>
-<part name="Z-DRIVER" library="con-molex" deviceset="22-23-2051" device=""/>
-<part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="IC4" library="national-semiconductor" deviceset="LM2596" device="S" value="LM2596S"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -14657,7 +14650,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="adafruit" deviceset="CPOL-US" device="E5-10.5" value="1000uF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="RESET/ABORT" library="con-molex" deviceset="22-23-2031" device=""/>
@@ -14683,12 +14675,15 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="SUPPLY4" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="DGND" device=""/>
 <part name="P+10" library="supply1" deviceset="+24V" device=""/>
-<part name="SPINDLE" library="con-molex" deviceset="22-23-2051" device=""/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0805K"/>
 <part name="GND8" library="supply1" deviceset="GNDA" device=""/>
 <part name="X2" library="con-ptr500" deviceset="AK500/2" device=""/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C0805K"/>
 <part name="GND9" library="supply1" deviceset="GNDA" device=""/>
+<part name="SPINDLE" library="con-molex" deviceset="22-23-2041" device=""/>
+<part name="X" library="con-molex" deviceset="22-23-2041" device=""/>
+<part name="Y" library="con-molex" deviceset="22-23-2041" device=""/>
+<part name="Z" library="con-molex" deviceset="22-23-2041" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14739,22 +14734,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="+24V-" gate="-1" x="281.94" y="254"/>
 <instance part="+24V-" gate="-2" x="281.94" y="251.46"/>
 <instance part="R4" gate="G$1" x="213.36" y="137.16" rot="R180"/>
-<instance part="X-DRIVER" gate="-1" x="378.46" y="132.08"/>
-<instance part="X-DRIVER" gate="-2" x="378.46" y="129.54"/>
-<instance part="X-DRIVER" gate="-3" x="378.46" y="127"/>
-<instance part="X-DRIVER" gate="-4" x="378.46" y="124.46"/>
-<instance part="X-DRIVER" gate="-5" x="378.46" y="121.92"/>
-<instance part="Y-DRIVER" gate="-1" x="378.46" y="111.76"/>
-<instance part="Y-DRIVER" gate="-2" x="378.46" y="109.22"/>
-<instance part="Y-DRIVER" gate="-3" x="378.46" y="106.68"/>
-<instance part="Y-DRIVER" gate="-4" x="378.46" y="104.14"/>
-<instance part="Y-DRIVER" gate="-5" x="378.46" y="101.6"/>
-<instance part="Z-DRIVER" gate="-1" x="378.46" y="91.44"/>
-<instance part="Z-DRIVER" gate="-2" x="378.46" y="88.9"/>
-<instance part="Z-DRIVER" gate="-3" x="378.46" y="86.36"/>
-<instance part="Z-DRIVER" gate="-4" x="378.46" y="83.82"/>
-<instance part="Z-DRIVER" gate="-5" x="378.46" y="81.28"/>
-<instance part="P+6" gate="1" x="370.84" y="154.94"/>
 <instance part="GND10" gate="1" x="368.3" y="66.04"/>
 <instance part="IC4" gate="G$1" x="124.46" y="88.9"/>
 <instance part="GND11" gate="1" x="147.32" y="68.58"/>
@@ -14772,7 +14751,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="GND15" gate="1" x="101.6" y="68.58"/>
 <instance part="C2" gate="G$1" x="175.26" y="81.28"/>
 <instance part="GND16" gate="1" x="175.26" y="68.58"/>
-<instance part="P+8" gate="1" x="251.46" y="175.26"/>
 <instance part="GND17" gate="1" x="251.46" y="157.48"/>
 <instance part="P+1" gate="1" x="175.26" y="266.7"/>
 <instance part="RESET/ABORT" gate="-1" x="439.42" y="223.52"/>
@@ -14806,17 +14784,28 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="SUPPLY4" gate="G$1" x="276.86" y="243.84"/>
 <instance part="SUPPLY5" gate="G$1" x="431.8" y="162.56"/>
 <instance part="P+10" gate="1" x="434.34" y="246.38"/>
-<instance part="SPINDLE" gate="-1" x="378.46" y="149.86"/>
-<instance part="SPINDLE" gate="-2" x="378.46" y="147.32"/>
-<instance part="SPINDLE" gate="-3" x="378.46" y="144.78"/>
-<instance part="SPINDLE" gate="-4" x="378.46" y="142.24"/>
-<instance part="SPINDLE" gate="-5" x="378.46" y="139.7"/>
 <instance part="C3" gate="G$1" x="78.74" y="203.2"/>
 <instance part="GND8" gate="1" x="78.74" y="190.5"/>
 <instance part="X2" gate="-1" x="307.34" y="256.54" rot="MR0"/>
 <instance part="X2" gate="-2" x="307.34" y="248.92" rot="MR0"/>
 <instance part="C4" gate="G$1" x="86.36" y="203.2"/>
 <instance part="GND9" gate="1" x="86.36" y="190.5"/>
+<instance part="SPINDLE" gate="-1" x="378.46" y="144.78"/>
+<instance part="SPINDLE" gate="-2" x="378.46" y="142.24"/>
+<instance part="SPINDLE" gate="-3" x="378.46" y="139.7"/>
+<instance part="SPINDLE" gate="-4" x="378.46" y="137.16"/>
+<instance part="X" gate="-1" x="378.46" y="127"/>
+<instance part="X" gate="-2" x="378.46" y="124.46"/>
+<instance part="X" gate="-3" x="378.46" y="121.92"/>
+<instance part="X" gate="-4" x="378.46" y="119.38"/>
+<instance part="Y" gate="-1" x="378.46" y="106.68"/>
+<instance part="Y" gate="-2" x="378.46" y="104.14"/>
+<instance part="Y" gate="-3" x="378.46" y="101.6"/>
+<instance part="Y" gate="-4" x="378.46" y="99.06"/>
+<instance part="Z" gate="-1" x="378.46" y="86.36"/>
+<instance part="Z" gate="-2" x="378.46" y="83.82"/>
+<instance part="Z" gate="-3" x="378.46" y="81.28"/>
+<instance part="Z" gate="-4" x="378.46" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -14944,24 +14933,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <junction x="215.9" y="203.2"/>
 </segment>
 <segment>
-<pinref part="X-DRIVER" gate="-2" pin="S"/>
-<wire x1="375.92" y1="129.54" x2="368.3" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="129.54" x2="368.3" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="Y-DRIVER" gate="-2" pin="S"/>
-<wire x1="368.3" y1="109.22" x2="368.3" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="88.9" x2="368.3" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="109.22" x2="368.3" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="Z-DRIVER" gate="-2" pin="S"/>
-<wire x1="375.92" y1="88.9" x2="368.3" y2="88.9" width="0.1524" layer="91"/>
-<junction x="368.3" y="88.9"/>
-<junction x="368.3" y="109.22"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="368.3" y1="147.32" x2="368.3" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="SPINDLE" gate="-2" pin="S"/>
-<wire x1="375.92" y1="147.32" x2="368.3" y2="147.32" width="0.1524" layer="91"/>
-<junction x="368.3" y="129.54"/>
-</segment>
-<segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="147.32" y1="76.2" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -15021,6 +14992,24 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <junction x="381" y="187.96"/>
 <junction x="381" y="203.2"/>
 </segment>
+<segment>
+<pinref part="SPINDLE" gate="-4" pin="S"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="375.92" y1="137.16" x2="368.3" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="137.16" x2="368.3" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="X" gate="-4" pin="S"/>
+<wire x1="368.3" y1="119.38" x2="368.3" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="99.06" x2="368.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="78.74" x2="368.3" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="119.38" x2="368.3" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="Y" gate="-4" pin="S"/>
+<wire x1="375.92" y1="99.06" x2="368.3" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="Z" gate="-4" pin="S"/>
+<wire x1="375.92" y1="78.74" x2="368.3" y2="78.74" width="0.1524" layer="91"/>
+<junction x="368.3" y="119.38"/>
+<junction x="368.3" y="99.06"/>
+<junction x="368.3" y="78.74"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -15071,24 +15060,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <junction x="208.28" y="137.16"/>
 </segment>
 <segment>
-<pinref part="Z-DRIVER" gate="-1" pin="S"/>
-<pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="375.92" y1="91.44" x2="370.84" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="91.44" x2="370.84" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="Y-DRIVER" gate="-1" pin="S"/>
-<wire x1="370.84" y1="111.76" x2="370.84" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="132.08" x2="370.84" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="149.86" x2="370.84" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="111.76" x2="370.84" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="X-DRIVER" gate="-1" pin="S"/>
-<wire x1="375.92" y1="132.08" x2="370.84" y2="132.08" width="0.1524" layer="91"/>
-<junction x="370.84" y="111.76"/>
-<junction x="370.84" y="132.08"/>
-<pinref part="SPINDLE" gate="-1" pin="S"/>
-<wire x1="375.92" y1="149.86" x2="370.84" y2="149.86" width="0.1524" layer="91"/>
-<junction x="370.84" y="149.86"/>
-</segment>
-<segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="91.44" x2="175.26" y2="91.44" width="0.1524" layer="91"/>
@@ -15100,12 +15071,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="175.26" y1="83.82" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
 <junction x="175.26" y="86.36"/>
-</segment>
-<segment>
-<pinref part="P+8" gate="1" pin="+5V"/>
-<pinref part="SV4" gate="1" pin="2"/>
-<wire x1="251.46" y1="172.72" x2="251.46" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="167.64" x2="248.92" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VDD1"/>
@@ -15157,26 +15122,26 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </net>
 <net name="X-DIR" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD5(T1)"/>
-<wire x1="271.78" y1="101.6" x2="276.86" y2="101.6" width="0.1524" layer="91"/>
-<label x="279.4" y="101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X-DRIVER" gate="-4" pin="S"/>
 <wire x1="375.92" y1="124.46" x2="363.22" y2="124.46" width="0.1524" layer="91"/>
 <label x="347.98" y="124.46" size="1.778" layer="95"/>
+<pinref part="X" gate="-2" pin="S"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PD3(INT1)"/>
+<wire x1="271.78" y1="106.68" x2="276.86" y2="106.68" width="0.1524" layer="91"/>
+<label x="279.4" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="Y-DIR" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD6(AIN0)"/>
-<wire x1="271.78" y1="99.06" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
-<label x="279.4" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Y-DRIVER" gate="-4" pin="S"/>
 <wire x1="375.92" y1="104.14" x2="363.22" y2="104.14" width="0.1524" layer="91"/>
 <label x="347.98" y="104.14" size="1.778" layer="95"/>
+<pinref part="Y" gate="-2" pin="S"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PD5(T1)"/>
+<wire x1="271.78" y1="101.6" x2="276.86" y2="101.6" width="0.1524" layer="91"/>
+<label x="279.4" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="Z-DIR" class="0">
@@ -15186,9 +15151,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <label x="279.4" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Z-DRIVER" gate="-4" pin="S"/>
 <wire x1="375.92" y1="83.82" x2="363.22" y2="83.82" width="0.1524" layer="91"/>
 <label x="347.98" y="83.82" size="1.778" layer="95"/>
+<pinref part="Z" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="X-STEP" class="0">
@@ -15198,33 +15163,33 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <label x="279.4" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X-DRIVER" gate="-3" pin="S"/>
 <wire x1="375.92" y1="127" x2="363.22" y2="127" width="0.1524" layer="91"/>
 <label x="347.98" y="127" size="1.778" layer="95"/>
+<pinref part="X" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="Y-STEP" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD3(INT1)"/>
-<wire x1="271.78" y1="106.68" x2="276.86" y2="106.68" width="0.1524" layer="91"/>
-<label x="279.4" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Y-DRIVER" gate="-3" pin="S"/>
 <wire x1="375.92" y1="106.68" x2="363.22" y2="106.68" width="0.1524" layer="91"/>
 <label x="347.98" y="106.68" size="1.778" layer="95"/>
+<pinref part="Y" gate="-1" pin="S"/>
 </segment>
-</net>
-<net name="Z-STEP" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD4(XCK/T0)"/>
 <wire x1="271.78" y1="104.14" x2="276.86" y2="104.14" width="0.1524" layer="91"/>
 <label x="279.4" y="104.14" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="Z-STEP" class="0">
 <segment>
-<pinref part="Z-DRIVER" gate="-3" pin="S"/>
 <wire x1="375.92" y1="86.36" x2="363.22" y2="86.36" width="0.1524" layer="91"/>
 <label x="347.98" y="86.36" size="1.778" layer="95"/>
+<pinref part="Z" gate="-1" pin="S"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PD6(AIN0)"/>
+<wire x1="271.78" y1="99.06" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
+<label x="279.4" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="STEPPER_EN" class="0">
@@ -15234,13 +15199,10 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <label x="279.4" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X-DRIVER" gate="-5" pin="S"/>
 <wire x1="375.92" y1="121.92" x2="365.76" y2="121.92" width="0.1524" layer="91"/>
 <label x="347.98" y="121.92" size="1.778" layer="95"/>
-<pinref part="Y-DRIVER" gate="-5" pin="S"/>
 <wire x1="365.76" y1="121.92" x2="363.22" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="101.6" x2="365.76" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="Z-DRIVER" gate="-5" pin="S"/>
 <wire x1="375.92" y1="81.28" x2="365.76" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="81.28" x2="365.76" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="101.6" x2="365.76" y2="121.92" width="0.1524" layer="91"/>
@@ -15251,6 +15213,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="365.76" y1="101.6" x2="363.22" y2="101.6" width="0.1524" layer="91"/>
 <label x="347.98" y="101.6" size="1.778" layer="95"/>
 <label x="347.98" y="81.28" size="1.778" layer="95"/>
+<pinref part="X" gate="-3" pin="S"/>
+<pinref part="Y" gate="-3" pin="S"/>
+<pinref part="Z" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="SPINDLE-PWM" class="0">
@@ -15265,9 +15230,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <label x="254" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
+<wire x1="375.92" y1="139.7" x2="363.22" y2="139.7" width="0.1524" layer="91"/>
+<label x="347.98" y="139.7" size="1.778" layer="95"/>
 <pinref part="SPINDLE" gate="-3" pin="S"/>
-<wire x1="375.92" y1="144.78" x2="363.22" y2="144.78" width="0.1524" layer="91"/>
-<label x="347.98" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPINDLE-DIR" class="0">
@@ -15282,9 +15247,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <label x="215.9" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SPINDLE" gate="-4" pin="S"/>
 <wire x1="375.92" y1="142.24" x2="363.22" y2="142.24" width="0.1524" layer="91"/>
 <label x="347.98" y="142.24" size="1.778" layer="95"/>
+<pinref part="SPINDLE" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="PROBE*" class="0">
@@ -15313,9 +15278,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <label x="279.4" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="375.92" y1="139.7" x2="363.22" y2="139.7" width="0.1524" layer="91"/>
-<label x="347.98" y="139.7" size="1.778" layer="95"/>
-<pinref part="SPINDLE" gate="-5" pin="S"/>
+<wire x1="375.92" y1="144.78" x2="363.22" y2="144.78" width="0.1524" layer="91"/>
+<label x="347.98" y="144.78" size="1.778" layer="95"/>
+<pinref part="SPINDLE" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="CYCLE_START/RESUME*" class="0">
